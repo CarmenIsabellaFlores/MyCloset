@@ -5,3 +5,7 @@ h1 {
 img{
   width: 15%
 }
+
+.background {
+  background-image:("closet.png");
+}
