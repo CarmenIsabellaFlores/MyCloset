@@ -8,4 +8,7 @@ img{
 
 .background {
   background-image:("closet.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
 }
