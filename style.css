@@ -12,3 +12,10 @@ img{
   background-size: cover;
   display:flex;
 }
+
+.WhitespaceBackground{
+  background-image: ("Iphonebackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+}
