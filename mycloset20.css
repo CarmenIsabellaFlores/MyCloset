@@ -1,0 +1,30 @@
+h1 {
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: .3rem;
+}
+
+.icon{
+   height: 100px;
+   width: 100px;
+
+}
+
+}
+
+.title {
+  display: inline;
+}
+
+.text{
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  color: black;
+  display: inline;
+}
