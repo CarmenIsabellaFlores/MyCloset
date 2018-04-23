@@ -32,7 +32,14 @@ h1 {
   background-image: url("back.jpg");
   background-repeat: no-repeat;
   width:100%;
+}
 
 
-
+.para{
+font-size: 20px;
+font-family: 'Abril Fatface', cursive;
+color: black;
+display: inline;
+margin-right: 50px;
+line-height: 5;
 }

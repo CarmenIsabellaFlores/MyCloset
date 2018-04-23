@@ -46,3 +46,12 @@ body {
     background-color: #fff;
     font-size: 20px;
 }
+
+.para{
+font-size: 20px;
+font-family: 'Abril Fatface', cursive;
+color: black;
+display: inline;
+margin-right: 150px;
+line-height: 5;
+}
