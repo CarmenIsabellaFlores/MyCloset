@@ -6,8 +6,8 @@ img{
   width: 15%
 }
 
-.background {
-  background-image:("closet.png");
+body {
+  background-image:url("closet.png");
   background-repeat: no-repeat;
   background-size: cover;
   display:flex;
