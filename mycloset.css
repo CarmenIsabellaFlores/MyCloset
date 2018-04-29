@@ -16,7 +16,7 @@ h1 {
 }
 
 .bottomicon{
-  width: 15%
+  width: 35%
 
 }
 
@@ -35,20 +35,43 @@ h1 {
 }
 
 .square{
-    width: 35%
-
+    width: 75%
+    margin: 0 auto;
 }
 
+
+
+  .body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: none;
+  }
+
+
+#over {
+  background-image: url("https://www.repricerexpress.com/wp-content/uploads/2014/08/grey-background-v1.jpg");
+  width:100%;
+}
 
 .block1{
-  
-
+display:inline-block;
+width: auto;
+text-align: center;
 }
 
+.center {
+  margin: 0 auto;
+}
 .block2{
+  display:flex;
+
 
 }
-
-.block3{
-
+.card-img-top {
+  border: 2px solid black;
 }

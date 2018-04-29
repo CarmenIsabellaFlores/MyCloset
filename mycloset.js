@@ -1,7 +1,7 @@
 
 
 var pictureListItem = function(id, pictureUrl) {
-  return `<div class="col-sm-6">
+  return `<div class="col-s m-6 center">
     <div class="card mb-4 box-shadow">
       <a href="mycloset.html?id=${id}"><img class="card-img-top" src="${pictureUrl}"></a>
         </div>
