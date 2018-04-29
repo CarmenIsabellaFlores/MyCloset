@@ -24,14 +24,18 @@ h1 {
 
 .title {
   display: inline;
+  font-family: 'Vidaloka', serif;
+
 }
 
 .text{
   font-size: 40px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Vidaloka', serif;
   color: black;
   display: inline;
   text-shadow: 0px 3px 0px #c7c7c7;
+  font-weight: bold;
+
 }
 
 .square{
@@ -56,6 +60,8 @@ h1 {
 #over {
   background-image: url("https://www.repricerexpress.com/wp-content/uploads/2014/08/grey-background-v1.jpg");
   width:100%;
+  text-align:center;
+
 }
 
 .block1{
