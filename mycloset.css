@@ -11,8 +11,13 @@ h1 {
 }
 
 .icon{
-   height: 50px;
-   width: 50px;
+  margin-top: 30px;
+  width: 5%
+
+}
+
+.bottomicon{
+  width: 15%
 
 }
 
@@ -27,12 +32,10 @@ h1 {
   font-family: 'Abril Fatface', cursive;
   color: black;
   display: inline;
+  text-shadow: 0px 3px 0px #c7c7c7;
 }
-.back{
-  background-image: url("back.jpg");
-  background-repeat: no-repeat;
-  width:100%;
 
-
+.square{
+    width: 35%
 
 }
