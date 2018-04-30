@@ -1,23 +1,21 @@
 h1 {
-    color: black;
-    font-family: 'Abril Fatface', cursive;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: white;
-    border-radius: .3rem;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  border-radius: .3rem;
 }
 
-.icon{
+.icon {
   width: 3%
-
 }
 
-.bottomicon{
+.bottomicon {
   width: 35%
-
 }
 
 }
@@ -25,62 +23,56 @@ h1 {
 .title {
   display: inline;
   font-family: 'Vidaloka', serif;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
 
-.text{
+.text {
   font-size: 40px;
   font-family: 'Vidaloka', serif;
   color: black;
   display: inline;
   text-shadow: 0px 3px 0px #c7c7c7;
   font-weight: bold;
-
 }
 
-.square{
-    width: 75%
-    margin: 0 auto;
+.square {
+  width: 75% margin: 0 auto;
 }
 
-
-
-  .body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: center;
-    background-color: none;
-  }
-
+.body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  background-color: none;
+}
 
 #over {
   background-image: url("https://www.repricerexpress.com/wp-content/uploads/2014/08/grey-background-v1.jpg");
-  width:100%;
-  text-align:center;
-margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.block1{
-display:inline-block;
-width: auto;
-text-align: center;
-margin-top: 30px;
-
+.block1 {
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .center {
   margin: 0 auto;
 }
-.block2{
-  display:flex;
 
-
+.block2 {
+  display: flex;
 }
+
 .card-img-top {
   border: 2px solid black;
- box-shadow: 5px 10px 8px #888888;
+  box-shadow: 5px 10px 8px #888888;
 }
