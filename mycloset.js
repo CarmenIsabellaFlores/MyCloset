@@ -195,3 +195,63 @@ $.getJSON( "https://api.airtable.com/v0/apput44m0VeU0dGGC/cozyshoes?api_key=key8
   console.log(items, $(".cozyshoes-list" ))
   $(".cozyshoes-list" ).append(items.join(""));
 });
+
+$.getJSON( "https://api.airtable.com/v0/apput44m0VeU0dGGC/mentops?api_key=key8kii4qZ62inYAF", function( data ) {
+  // console.log(data.records);
+  var items = [];
+
+  items.push(`<div class="row">`);
+  var randomNumber = getRandomInt(data.records.length);
+  var val = data.records[randomNumber];
+
+
+    //console.log(val.fields)
+    var id = val.id;
+    var pictureUrl = val.fields["Picture"] ? val.fields["Picture"][0].url : '';
+    var itemHTML = pictureListItem(id, pictureUrl);
+    items.push(itemHTML);
+
+  items.push(`</div>`);
+  console.log(items, $(".mentops-list" ))
+  $(".mentops-list" ).append(items.join(""));
+});
+
+$.getJSON( "https://api.airtable.com/v0/apput44m0VeU0dGGC/menbottoms?api_key=key8kii4qZ62inYAF", function( data ) {
+  // console.log(data.records);
+  var items = [];
+
+  items.push(`<div class="row">`);
+  var randomNumber = getRandomInt(data.records.length);
+  var val = data.records[randomNumber];
+
+
+    //console.log(val.fields)
+    var id = val.id;
+    var pictureUrl = val.fields["Picture"] ? val.fields["Picture"][0].url : '';
+    var itemHTML = pictureListItem(id, pictureUrl);
+    items.push(itemHTML);
+
+  items.push(`</div>`);
+  console.log(items, $(".menbottoms-list" ))
+  $(".menbottoms-list" ).append(items.join(""));
+});
+
+$.getJSON( "https://api.airtable.com/v0/apput44m0VeU0dGGC/menshoes?api_key=key8kii4qZ62inYAF", function( data ) {
+  // console.log(data.records);
+  var items = [];
+
+  items.push(`<div class="row">`);
+  var randomNumber = getRandomInt(data.records.length);
+  var val = data.records[randomNumber];
+
+
+    //console.log(val.fields)
+    var id = val.id;
+    var pictureUrl = val.fields["Picture"] ? val.fields["Picture"][0].url : '';
+    var itemHTML = pictureListItem(id, pictureUrl);
+    items.push(itemHTML);
+
+  items.push(`</div>`);
+  console.log(items, $(".menshoes-list" ))
+  $(".menshoes-list" ).append(items.join(""));
+});

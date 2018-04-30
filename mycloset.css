@@ -11,7 +11,7 @@ h1 {
 }
 
 .icon{
-  width: 5%
+  width: 3%
 
 }
 
@@ -25,7 +25,7 @@ h1 {
 .title {
   display: inline;
   font-family: 'Vidaloka', serif;
-
+  margin-bottom:50px;
 }
 
 .text{
@@ -61,13 +61,15 @@ h1 {
   background-image: url("https://www.repricerexpress.com/wp-content/uploads/2014/08/grey-background-v1.jpg");
   width:100%;
   text-align:center;
-
+margin-top: 20px;
 }
 
 .block1{
 display:inline-block;
 width: auto;
 text-align: center;
+margin-top: 30px;
+
 }
 
 .center {
