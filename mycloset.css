@@ -82,4 +82,5 @@ margin-top: 30px;
 }
 .card-img-top {
   border: 2px solid black;
+ box-shadow: 5px 10px 8px #888888;
 }
