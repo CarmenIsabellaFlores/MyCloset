@@ -1,0 +1,40 @@
+p {
+    margin: 0;
+
+    font-family: 'Passion One', cursive;
+    background-color: #000;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+#over {
+    background-image: url("http://papelarrozkantinhodobolo.com.br/wp-content/uploads/2017/08/05-8.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Passion One', cursive;
+    color: #fff;
+    font-size: 50px;
+    text-align: left;
+
+}
+body {
+    margin: 0;
+  font-family: 'Passion One', cursive;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #000;
+}
