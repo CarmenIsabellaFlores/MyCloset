@@ -84,3 +84,16 @@ body {
   border: 2px solid black;
   box-shadow: 5px 10px 8px #888888;
 }
+
+
+#button:hover {
+    background-color: #4d52ff;
+    border: 10.5px outset #4d52ff;
+}
+
+
+a.button:hover {
+color: #000;
+
+
+}
