@@ -37,6 +37,10 @@ p {
      background-color: #000;
      color: white;
      margin: 0;
+     word-spacing: 2cm;
+border: 10.5px outset #0f0f0f;
+
+
 
 }
 body {
@@ -54,7 +58,7 @@ body {
 
 .block1{
   display: inline-block;
-  width: auto;
+  width: 30%;
   text-align: center;
 
 }
@@ -68,10 +72,15 @@ body {
 #button{ font-family: 'Passion One', cursive;
   font-size: 60px;
   text-shadow: 3px 1px 1px #c7c7c7;
- border: 10.5px outset #232d9f;
+ border: 10.5px outset #a8a8a8;
   display: inline;
   padding: 15px;
   display: inline-block;
- background-color: #4450da;
+ background-color: #999;
+ color: #000;
+}
 
+.card-img-top {
+  border: 2px solid black;
+  box-shadow: 5px 10px 8px #888888;
 }
